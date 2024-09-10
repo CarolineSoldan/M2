@@ -1,0 +1,63 @@
+#mis-trabajos .mis-trabajos-body img {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+
+.icons-contacto i{
+    font-size: 30px;
+    color: rgb(174, 112, 193);
+}
+
+.navbar{
+ background-color: rgb(196, 156, 228);
+    width: 100%
+    aspect-ratio 3/2
+    ;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);  
+
+}
+
+.modal-content {
+    
+    background: rgb(152, 44, 219);
+    background: linear-gradient(90deg, rgb(194, 155, 232) 0%, rgb(213, 129, 216) 8%, rgb(191, 105, 225) 50%, rgb(169, 80, 220) 100%);
+    text-align: center;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #6f0b81;
+    width: 80%;
+    display: block;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content input,
+.modal-content textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #de9ee4; /* Fondo gris claro */
+    padding: 20px;
+    text-align: center;
+}
